@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+div.Whole{ 
+    background-color: darkolivegreen; 
+    height: 100vh; 
+} 
+
+nav{
+    display: flex;  
+    justify-content: space-between;
+    padding: 5px; 
+    padding: 20px;
+}
+nav{
+    text-decoration: none; 
+    color: pink; 
+    font-family: cursive;
+    font-size: 24px;
+    font-weight:bold;
+} 
+
+div.firstpage{
+    display: flex; 
+flex-direction: row; 
+justify-content: space-around; 
+}
+
+div.headings{
+    color: #fffffe;
+}
+div.profile img{
+    width: 25vw; 
+    height:70vh; 
+}
